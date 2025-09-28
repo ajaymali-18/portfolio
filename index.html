@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajay Mali Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="16x16" href="resources/man-with-hat.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="resources/man-with-hat.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="resources/man-with-hat.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="resources/man-with-hat.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="resources/man-with-hat.png">
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="theme-color" content="#0a0a0a">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-icons">
+                <a href="#home" class="nav-icon active" data-tooltip="Home">
+                    <i class="fas fa-home"></i>
+                </a>
+                <a href="#projects" class="nav-icon" data-tooltip="Projects">
+                    <i class="fas fa-folder"></i>
+                </a>
+                <a href="#tools" class="nav-icon" data-tooltip="Tools">
+                    <i class="fas fa-wrench"></i>
+                </a>
+                <a href="#experience" class="nav-icon" data-tooltip="Experience">
+                    <i class="fas fa-briefcase"></i>
+                </a>
+                <a href="#thoughts" class="nav-icon" data-tooltip="Thoughts">
+                    <i class="fas fa-pencil-alt"></i>
+                </a>
+                <a href="#contact" class="nav-icon" data-tooltip="Contact">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-left">
+                    <div class="profile-card">
+                        <div class="hero-image">
+                            <img src="Ajay.png" alt="Ajay" class="profile-image">
+                        </div>
+                        <div class="hero-name">Ajay Mali</div>
+                        <div class="hero-title">Java Developer & Software Engineer</div>
+                        <div class="hero-location">Pune, India</div>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-icon"><i class="fas fa-envelope"></i></a>
+                        </div>
+                        <button class="profile-cta">Let's Talk</button>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <div class="hero-main-title">My Java Development <span class="violet-text">Journey</span></div>
+                    <div class="hero-description">Exploring the world of Java development through personal projects.
+                        Learning enterprise software development, Spring frameworks, and microservices architecture.
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="2">0</div>
+                            <div class="stat-label">YEARS OF<br>LEARNING</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="8">0</div>
+                            <div class="stat-label">PROJECTS<br>COMPLETED</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="5">0</div>
+                            <div class="stat-label">TECHNOLOGIES<br>MASTERED</div>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <button class="btn-primary">Let's Talk</button>
+                        <button class="btn-secondary">My Work <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                    <div class="trust-statement">Building skills through hands-on projects and continuous learning.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Personal Java <span class="violet-text">Projects</span></h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">Learning Project</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Student Management System</h3>
+                        <p>My first Spring Boot project with CRUD operations</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">Learning Project</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>REST API Practice</h3>
+                        <p>Building RESTful services with Spring Boot</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">Learning Project</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Database Integration</h3>
+                        <p>Learning Hibernate with MySQL database</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">Learning Project</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Security Implementation</h3>
+                        <p>Exploring Spring Security features</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="tools" class="tools">
+        <div class="container">
+            <div class="section-header">
+                <h2>Java Technologies & <span class="violet-text">Frameworks</span></h2>
+            </div>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <img src="./resources/java.png" alt="Java" class="custom-icon">
+                    </div>
+                    <h3>Java SE/EE</h3>
+                    <p>Core Java Development</p>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <img src="./resources/Spring.png" alt="Java" class="custom-icon">
+                    </div>
+                    <h3>Spring Boot</h3>
+                    <p>Microservices Framework</p>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <img src="./resources/Hibernate.png" alt="Java" class="custom-icon">
+                    </div>
+                    <h3>Hibernate</h3>
+                    <p>ORM Framework</p>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <img src="./resources/react.png" alt="Java" class="custom-icon">
+                    </div>
+                    <h3>React.js </h3>
+                    <p>Frontend Library</p>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <img src="./resources/github.png" alt="Java" class="custom-icon">
+                    </div>
+                    <h3>Git Hub</h3>
+                    <p>Version Control </p>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <img src="./resources/Eclipse IDE.png" alt="Java" class="custom-icon">
+                    </div>
+                    <h3>Eclipse</h3>
+                    <p>JAVA IDE</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Journey Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Java Learning <span class="violet-text">Journey</span></h2>
+            </div>
+            <div class="testimonials-carousel">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <p>"Started with basic Java concepts and gradually moved to Spring Framework. Each project
+                            teaches me something new about enterprise development."</p>
+                        <div class="testimonial-author">
+                            <strong>Learning Milestone 1</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <p>"Building REST APIs with Spring Boot opened up a whole new world of web services.
+                            Understanding HTTP methods and status codes became second nature."</p>
+                        <div class="testimonial-author">
+                            <strong>Learning Milestone 2</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <p>"Database integration with Hibernate was challenging but rewarding. Learning ORM concepts and
+                            JPA annotations transformed how I think about data persistence."</p>
+                        <div class="testimonial-author">
+                            <strong>Learning Milestone 3</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <p>"Spring Security implementation taught me the importance of authentication and authorization
+                            in modern applications. Security is now a priority in all my projects."</p>
+                        <div class="testimonial-author">
+                            <strong>Learning Milestone 4</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <p>"Exploring microservices architecture with Spring Cloud is my current focus. Understanding
+                            service discovery and load balancing is fascinating."</p>
+                        <div class="testimonial-author">
+                            <strong>Current Learning</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button class="carousel-btn prev"><i class="fas fa-arrow-left"></i></button>
+                <button class="carousel-btn next"><i class="fas fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Thoughts/Blog Section -->
+    <section id="thoughts" class="thoughts">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Learning <span class="violet-text">Progress</span></h2>
+            </div>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <div class="blog-placeholder">Learning</div>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">Apr 8, 2024</span>
+                        <h3>Completed Spring Boot Fundamentals</h3>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <div class="blog-placeholder">Learning</div>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">Mar 15, 2024</span>
+                        <h3>Mastered REST API Development</h3>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <div class="blog-placeholder">Learning</div>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">Feb 28, 2024</span>
+                        <h3>Implemented Spring Security</h3>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <div class="blog-placeholder">Learning</div>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">Jan 12, 2024</span>
+                        <h3>Learned Hibernate ORM</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>What Java technologies am I learning?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>I'm currently learning Java SE/EE, Spring Boot, Spring Security, Hibernate ORM, Spring Cloud,
+                            Maven/Gradle, and JUnit testing. Each technology builds upon the previous one.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>What is my learning approach?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>I follow a hands-on approach: theory first, then practical implementation through personal
+                            projects. I build real applications to understand concepts deeply.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>How do I track my progress?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>I maintain a learning journal, complete projects regularly, and document my journey. Each
+                            project represents a milestone in my Java development skills.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>What are my learning goals?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>My goal is to become proficient in enterprise Java development, master microservices
+                            architecture, and eventually contribute to open-source Java projects.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>What challenges do I face?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Learning complex concepts like dependency injection, AOP, and microservices architecture can
+                            be challenging, but each breakthrough makes me a better developer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2>Let's connect</h2>
+                <p>Interested in my Java learning journey? I'm always open to discussing Java development, sharing
+                    knowledge, and learning from others in the community. Let's connect and grow together!</p>
+                <button class="btn-primary">Get in Touch</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Ajay Mali. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
